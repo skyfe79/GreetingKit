@@ -12,7 +12,7 @@
 		4EEBE05D1C872A52004EE74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEBE05B1C872A52004EE74B /* Main.storyboard */; };
 		4EEBE05F1C872A52004EE74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEBE05E1C872A52004EE74B /* Assets.xcassets */; };
 		4EEBE0621C872A52004EE74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEBE0601C872A52004EE74B /* LaunchScreen.storyboard */; };
-		4EEBE07F1C874702004EE74B /* GreetingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEBE07E1C874702004EE74B /* GreetingKit.framework */; };
+		4EEBE06A1C872DDD004EE74B /* GreetingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEBE0691C872DDD004EE74B /* GreetingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		4EEBE05E1C872A52004EE74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EEBE0611C872A52004EE74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EEBE0631C872A52004EE74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EEBE07E1C874702004EE74B /* GreetingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GreetingKit.framework; path = Carthage/Build/iOS/GreetingKit.framework; sourceTree = "<group>"; };
+		4EEBE0691C872DDD004EE74B /* GreetingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GreetingKit.framework; path = Carthage/Build/iOS/GreetingKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EEBE07F1C874702004EE74B /* GreetingKit.framework in Frameworks */,
+				4EEBE06A1C872DDD004EE74B /* GreetingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +41,7 @@
 		4EEBE04B1C872A52004EE74B = {
 			isa = PBXGroup;
 			children = (
-				4EEBE07E1C874702004EE74B /* GreetingKit.framework */,
+				4EEBE0691C872DDD004EE74B /* GreetingKit.framework */,
 				4EEBE0561C872A52004EE74B /* Client */,
 				4EEBE0551C872A52004EE74B /* Products */,
 			);
@@ -315,7 +315,6 @@
 				4EEBE0681C872A52004EE74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

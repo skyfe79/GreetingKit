@@ -14,5 +14,6 @@ FOUNDATION_EXPORT double GreetingKitVersionNumber;
 //! Project version string for GreetingKit.
 FOUNDATION_EXPORT const unsigned char GreetingKitVersionString[];
 
-#import <GreetingKit/HelloCppWrapper.h>
-#import <GreetingKit/HelloC.h>
+// In this header, you should import all the public headers of your framework using statements like #import <GreetingKit/PublicHeader.h>
+
+

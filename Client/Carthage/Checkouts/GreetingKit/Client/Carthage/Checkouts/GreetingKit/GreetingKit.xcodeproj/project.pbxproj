@@ -9,12 +9,6 @@
 /* Begin PBXBuildFile section */
 		4EEBE0421C87285B004EE74B /* GreetingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EEBE0411C87285B004EE74B /* GreetingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EEBE04A1C872867004EE74B /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBE0491C872867004EE74B /* Hello.swift */; };
-		4EEBE06E1C873B76004EE74B /* HelloCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBE06C1C873B76004EE74B /* HelloCpp.cpp */; };
-		4EEBE06F1C873B76004EE74B /* HelloCpp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4EEBE06D1C873B76004EE74B /* HelloCpp.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EEBE0741C873D8B004EE74B /* HelloCppWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EEBE0721C873D8B004EE74B /* HelloCppWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EEBE0751C873D8B004EE74B /* HelloCppWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBE0731C873D8B004EE74B /* HelloCppWrapper.mm */; };
-		4EEBE07A1C874060004EE74B /* HelloC.c in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBE0781C874060004EE74B /* HelloC.c */; };
-		4EEBE07B1C874060004EE74B /* HelloC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EEBE0791C874060004EE74B /* HelloC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +16,6 @@
 		4EEBE0411C87285B004EE74B /* GreetingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreetingKit.h; sourceTree = "<group>"; };
 		4EEBE0431C87285B004EE74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EEBE0491C872867004EE74B /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
-		4EEBE06C1C873B76004EE74B /* HelloCpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloCpp.cpp; sourceTree = "<group>"; };
-		4EEBE06D1C873B76004EE74B /* HelloCpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HelloCpp.hpp; sourceTree = "<group>"; };
-		4EEBE0701C873BE5004EE74B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
-		4EEBE0721C873D8B004EE74B /* HelloCppWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloCppWrapper.h; sourceTree = "<group>"; };
-		4EEBE0731C873D8B004EE74B /* HelloCppWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloCppWrapper.mm; sourceTree = "<group>"; };
-		4EEBE0781C874060004EE74B /* HelloC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HelloC.c; sourceTree = "<group>"; };
-		4EEBE0791C874060004EE74B /* HelloC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +32,6 @@
 		4EEBE0341C87285B004EE74B = {
 			isa = PBXGroup;
 			children = (
-				4EEBE0701C873BE5004EE74B /* MyPlayground.playground */,
 				4EEBE0401C87285B004EE74B /* GreetingKit */,
 				4EEBE03F1C87285B004EE74B /* Products */,
 			);
@@ -65,12 +51,6 @@
 				4EEBE0411C87285B004EE74B /* GreetingKit.h */,
 				4EEBE0431C87285B004EE74B /* Info.plist */,
 				4EEBE0491C872867004EE74B /* Hello.swift */,
-				4EEBE06C1C873B76004EE74B /* HelloCpp.cpp */,
-				4EEBE06D1C873B76004EE74B /* HelloCpp.hpp */,
-				4EEBE0721C873D8B004EE74B /* HelloCppWrapper.h */,
-				4EEBE0731C873D8B004EE74B /* HelloCppWrapper.mm */,
-				4EEBE0781C874060004EE74B /* HelloC.c */,
-				4EEBE0791C874060004EE74B /* HelloC.h */,
 			);
 			path = GreetingKit;
 			sourceTree = "<group>";
@@ -82,10 +62,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EEBE06F1C873B76004EE74B /* HelloCpp.hpp in Headers */,
-				4EEBE07B1C874060004EE74B /* HelloC.h in Headers */,
 				4EEBE0421C87285B004EE74B /* GreetingKit.h in Headers */,
-				4EEBE0741C873D8B004EE74B /* HelloCppWrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,10 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EEBE07A1C874060004EE74B /* HelloC.c in Sources */,
-				4EEBE0751C873D8B004EE74B /* HelloCppWrapper.mm in Sources */,
 				4EEBE04A1C872867004EE74B /* Hello.swift in Sources */,
-				4EEBE06E1C873B76004EE74B /* HelloCpp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +243,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kr.pe.burt.ios.GreetingKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -289,7 +261,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kr.pe.burt.ios.GreetingKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -312,7 +283,6 @@
 				4EEBE0481C87285B004EE74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
