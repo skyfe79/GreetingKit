@@ -20,7 +20,7 @@ HelloCppWrapper.HelloCpp("Nice to meet you")
 
 ## Cocoa Touch Framework
 
-You should header file's Target memberships as Public.
+You should set header file's Target memberships as Public.
 
 ![](shot01.png)
 ![](shot02.png)
